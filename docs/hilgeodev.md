@@ -1,4 +1,0 @@
- 
-# hilgeodev module
-
-::: hilgeodev.hilgeodev
