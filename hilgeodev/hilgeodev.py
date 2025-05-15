@@ -6,4 +6,4 @@ class Map(ipyleaflet.Map):
         super().__init__(center=center, **kwargs)
 
     def add_base_map(self):
-        return self.add_layer(ipyleaflet.basemaps.OpenStreeMap.Mapnik)
+        self.add_layer(ipyleaflet.basemaps.OpenStreeMap.Mapnik)
